@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/usr/local/lib/python2.7/site-packages/sinaweibopy-1.1.1-py2.7.egg-info'
+let g:netrw_dirhist_2='/Users/lzrak47/Dropbox/code/macvim'
+let g:netrw_dirhist_3='/Users/lzrak47/.oh-my-zsh/themes'
+let g:netrw_dirhist_4='/Users/lzrak47/.oh-my-zsh/.git'
+let g:netrw_dirhist_5='/Library/LaunchDaemons'
