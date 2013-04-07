@@ -79,7 +79,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python set omnifunc=pythoncomplete#Complete
-autocmd filetype python setlocal dict+=~/.vim/doc/python.dict
+autocmd Filetype python setlocal dict+=~/.vim/doc/python.dict
 
 let g:acp_ignorecaseOption = 0
 let g:acp_behaviorKeywordLength = 3
