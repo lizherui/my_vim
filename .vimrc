@@ -86,7 +86,7 @@ let g:acp_behaviorKeywordLength = 3
 let g:acp_completeOption = '.,w,b,u,k'
 
 let Grep_Default_Filelist = '*'
-let Grep_Xargs_Path = '/usr/local/bin/xargs'
+let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 
 let g:vimrc_author='lizherui' 
 let g:vimrc_email='lizherui@baidu.com' 
