@@ -85,9 +85,9 @@ let g:acp_ignorecaseOption = 0
 let g:acp_behaviorKeywordLength = 3
 let g:acp_completeOption = '.,w,b,u,k'
 
-let Grep_Default_Filelist = '*.php'
+let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/xargs'
 
 let g:vimrc_author='lizherui' 
-let g:vimrc_email='lzrak47m4a1@gmail.com' 
+let g:vimrc_email='lizherui@baidu.com' 
 let g:vimrc_homepage='https://github.com/lizherui' 
