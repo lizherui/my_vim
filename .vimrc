@@ -71,6 +71,7 @@ let OmniCpp_DisplayMode=1
 let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 
 autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType c set tags+=/usr/include/tags
 autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
