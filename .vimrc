@@ -89,5 +89,5 @@ let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 
 let g:vimrc_author='lizherui' 
-let g:vimrc_email='lizherui@baidu.com' 
+let g:vimrc_email='lzrak47m4a1@gmail.com' 
 let g:vimrc_homepage='https://github.com/lizherui' 
