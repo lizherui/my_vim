@@ -1,4 +1,4 @@
 my_vim
 =======
 
-vim个人配置
+vim和zsh个人配置
