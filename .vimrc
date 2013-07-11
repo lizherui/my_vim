@@ -8,7 +8,7 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,GB2312,gbk
 
 set t_Co=256
-set guifont=Monaco:14
+set guifont=Monaco:h14
 colorscheme desert
 hi Pmenu guibg=#444444
 hi PmenuSel guibg=#555555 guifg=#ffffff
@@ -48,6 +48,7 @@ map <tab> :tabn<cr>
 map <S-Up> <C-u><cr>
 map g[ <C-t><cr>
 nmap hh :IHT<cr>
+autocmd FileType java inoremap <tab> <C-x><C-u>
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
@@ -90,3 +91,4 @@ let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 let g:vimrc_author='lizherui' 
 let g:vimrc_email='lzrak47m4a1@gmail.com' 
 let g:vimrc_homepage='https://github.com/lizherui' 
+
