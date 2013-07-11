@@ -94,3 +94,4 @@ let g:vimrc_homepage='https://github.com/lizherui'
 
 let g:EclimJavaCompleteCaseSensitive=1
 let g:EclimSignLevel=2
+let g:EclimLogLevel=2
