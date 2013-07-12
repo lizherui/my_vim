@@ -39,7 +39,6 @@ set completeopt=longest,menu
 set laststatus=2
 set statusline=%F\ \ \ \ [%{&ff}]\ \ \ \ [%{strlen(&fenc)?&fenc:'none'}]%=%l,%c
 
-map <F2> :copen<cr>
 map <F3> :TagbarToggle<cr>
 map <F4> :NERDTreeToggle<cr>
 map <F5> :Rgrep<cr>
@@ -49,6 +48,7 @@ map <S-Up> <C-u><cr>
 map g[ <C-t><cr>
 nmap hh :IHT<cr>
 autocmd FileType java inoremap <tab> <C-x><C-u>
+autocmd FileType java map <F2> :JavaSearchContext<cr>
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
@@ -95,3 +95,4 @@ let g:vimrc_homepage='https://github.com/lizherui'
 let g:EclimJavaCompleteCaseSensitive=1
 let g:EclimSignLevel=2
 let g:EclimLogLevel=2
+let g:EclimJavaSearchSingleResult='tabnew'
