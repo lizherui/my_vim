@@ -47,7 +47,7 @@ map <tab> :tabn<cr>
 map <S-Up> <C-u><cr>
 map g[ <C-t><cr>
 nmap hh :IHT<cr>
-autocmd FileType java inoremap <tab> <C-x><C-u>
+autocmd FileType java, xml inoremap <tab> <C-x><C-u>
 autocmd FileType java map <F2> :JavaSearchContext<cr>
 
 let NERDTreeWinSize=25
@@ -74,10 +74,6 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType c set tags+=/usr/include/tags
 autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
