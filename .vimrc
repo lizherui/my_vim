@@ -47,7 +47,7 @@ map <tab> :tabn<cr>
 map <S-Up> <C-u><cr>
 map g[ <C-t><cr>
 nmap hh :IHT<cr>
-autocmd FileType java, xml inoremap <tab> <C-x><C-u>
+autocmd FileType java,xml inoremap <tab> <C-x><C-u>
 autocmd FileType java map <F2> :JavaSearchContext<cr>
 
 let NERDTreeWinSize=25
@@ -84,11 +84,11 @@ let g:acp_completeOption = '.,w,b,u,k'
 let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 
-let g:vimrc_author='lizherui' 
-let g:vimrc_email='lzrak47m4a1@gmail.com' 
-let g:vimrc_homepage='https://github.com/lizherui' 
-
 let g:EclimJavaCompleteCaseSensitive=1
 let g:EclimSignLevel=2
 let g:EclimLogLevel=2
 let g:EclimJavaSearchSingleResult='tabnew'
+
+let g:DoxygenToolkit_paramTag_pre="@param " 
+let g:DoxygenToolkit_returnTag="@return " 
+let g:DoxygenToolkit_authorName="zherui.lzr@taobao.com" 
