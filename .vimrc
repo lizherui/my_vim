@@ -8,10 +8,16 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,GB2312,gbk
 
 set t_Co=256
-set guifont=Monaco:h14
 colorscheme desert
 hi Pmenu guibg=#444444
 hi PmenuSel guibg=#555555 guifg=#ffffff
+
+set guifont=Monaco:h14
+set guioptions-=T
+set guioptions-=m
+set guioptions-=r
+set guioptions-=L
+set guicursor+=a:blinkon0
 
 set autoread
 set nocompatible
@@ -88,7 +94,10 @@ let g:EclimJavaCompleteCaseSensitive=1
 let g:EclimSignLevel=2
 let g:EclimLogLevel=2
 let g:EclimJavaSearchSingleResult='tabnew'
+let g:EclimLocateFileDefaultAction='tabnew'
 
+let g:DoxygenToolkit_briefTag_pre=""
+let g:DoxygenToolkit_returnTag="" 
 let g:DoxygenToolkit_paramTag_pre="@param " 
-let g:DoxygenToolkit_returnTag="@return " 
 let g:DoxygenToolkit_authorName="zherui.lzr@taobao.com" 
+
