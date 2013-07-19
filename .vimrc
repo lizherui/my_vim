@@ -30,6 +30,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set switchbuf+=newtab,usetab
 set autoindent
 set cindent
 set hlsearch
