@@ -46,16 +46,17 @@ set completeopt=longest,menu
 set laststatus=2
 set statusline=%F\ \ \ \ [%{&ff}]\ \ \ \ [%{strlen(&fenc)?&fenc:'none'}]%=%l,%c
 
-map <F3> :TagbarToggle<cr>
-map <F4> :NERDTreeToggle<cr>
-map <F5> :Rgrep<cr>
+nmap <F3> :TagbarToggle<cr>
+nmap <F4> :NERDTreeToggle<cr>
+nmap <F5> :Rgrep<cr>
 set pastetoggle=<F6>
-map <tab> :tabn<cr>
-map <S-Up> <C-u><cr>
-map g[ <C-t><cr>
+nmap <tab> :tabn<cr>
+nmap <S-Up> <C-u><cr>
+nmap g[ <C-t><cr>
 nmap hh :IHT<cr>
-autocmd FileType java,xml inoremap <tab> <C-x><C-u>
-autocmd FileType java map <F2> :JavaSearchContext<cr>
+nmap qq :q!<cr>
+autocmd FileType java,xml imap <tab> <C-x><C-u>
+autocmd FileType java nmap <F2> :JavaSearchContext<cr>
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
@@ -101,4 +102,3 @@ let g:DoxygenToolkit_briefTag_pre=""
 let g:DoxygenToolkit_returnTag="" 
 let g:DoxygenToolkit_paramTag_pre="@param " 
 let g:DoxygenToolkit_authorName="zherui.lzr@taobao.com" 
-
