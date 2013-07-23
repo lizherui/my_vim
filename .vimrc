@@ -55,8 +55,11 @@ nmap <S-Up> <C-u><cr>
 nmap g[ <C-t><cr>
 nmap hh :IHT<cr>
 nmap qq :q!<cr>
+nmap <leader>u :set fileencoding=utf-8<cr>
+nmap <leader>g :set fileencoding=euc-cn<cr>
 autocmd FileType java,xml imap <tab> <C-x><C-u>
 autocmd FileType java nmap <F2> :JavaSearchContext<cr>
+
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
