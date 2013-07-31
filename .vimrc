@@ -55,11 +55,6 @@ nmap <S-Up> <C-u><cr>
 nmap g[ <C-t><cr>
 nmap hh :IHT<cr>
 nmap qq :q!<cr>
-nmap <leader>u :set fileencoding=utf-8<cr>
-nmap <leader>g :set fileencoding=euc-cn<cr>
-autocmd FileType java,xml imap <tab> <C-x><C-u>
-autocmd FileType java nmap <F2> :JavaSearchContext<cr>
-
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
@@ -94,12 +89,6 @@ let g:acp_completeOption = '.,w,b,u,k'
 
 let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
-
-let g:EclimJavaCompleteCaseSensitive=1
-let g:EclimSignLevel=2
-let g:EclimLogLevel=2
-let g:EclimJavaSearchSingleResult='tabnew'
-let g:EclimLocateFileDefaultAction='tabnew'
 
 let g:DoxygenToolkit_briefTag_pre=""
 let g:DoxygenToolkit_returnTag="" 
