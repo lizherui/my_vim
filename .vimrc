@@ -93,4 +93,4 @@ let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 let g:DoxygenToolkit_briefTag_pre=""
 let g:DoxygenToolkit_returnTag="" 
 let g:DoxygenToolkit_paramTag_pre="@param " 
-let g:DoxygenToolkit_authorName="zherui.lzr@taobao.com" 
+let g:DoxygenToolkit_authorName="lzak47m4a1@gmail.com" 
