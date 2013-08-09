@@ -8,7 +8,7 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,GB2312,gbk
 
 set t_Co=256
-colorscheme molokai
+colorscheme monokai
 hi Pmenu guibg=#444444
 hi PmenuSel guibg=#555555 guifg=#ffffff
 
@@ -89,5 +89,3 @@ let g:acp_completeOption = '.,w,b,u,k'
 
 let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
-
-let g:rehash256 = 1
