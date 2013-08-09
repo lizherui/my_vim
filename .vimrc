@@ -8,7 +8,7 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,GB2312,gbk
 
 set t_Co=256
-colorscheme desert
+colorscheme molokai
 hi Pmenu guibg=#444444
 hi PmenuSel guibg=#555555 guifg=#ffffff
 
@@ -90,7 +90,4 @@ let g:acp_completeOption = '.,w,b,u,k'
 let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
 
-let g:DoxygenToolkit_briefTag_pre=""
-let g:DoxygenToolkit_returnTag="" 
-let g:DoxygenToolkit_paramTag_pre="@param " 
-let g:DoxygenToolkit_authorName="lzrak47m4a1@gmail.com" 
+let g:rehash256 = 1
