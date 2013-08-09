@@ -9,8 +9,8 @@ set fileencodings=ucs-bom,utf-8,GB2312,gbk
 
 set t_Co=256
 colorscheme Monokai
-hi Pmenu guibg=#444444
-hi PmenuSel guibg=#555555 guifg=#ffffff
+"hi Pmenu guibg=#444444
+"hi PmenuSel guibg=#555555 guifg=#ffffff
 
 set guifont=Monaco:h14
 set guioptions-=T
