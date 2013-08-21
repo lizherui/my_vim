@@ -82,7 +82,6 @@ autocmd FileType c set tags+=/usr/include/tags
 autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python set omnifunc=pythoncomplete#Complete
-autocmd FileType python set tags+=/usr/local/lib/python2.7/site-packages/wx-2.9.4-osx_cocoa/tags
 
 let g:acp_ignorecaseOption = 0
 let g:acp_behaviorKeywordLength = 3
