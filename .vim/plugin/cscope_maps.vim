@@ -37,17 +37,19 @@ if has("cscope")
     " if you want the reverse search order.
     set csto=0
 
-    " add any cscope database in current directory
-    if filereadable("cscope.out")
-        cs add cscope.out  
-    " else add the database pointed to by environment variable 
-    else
+    "add any database in current dir  
+    if filereadable("cscope.out")  
+        let cscope_pre=getcwd()
+        let cscope_file=cscope_pre."/cscope.out"  
+        exe "cs add" cscope_file cscope_pre  
+    "else search cscope.out elsewhere  
+    else 
         let cscope_file=findfile("cscope.out", ".;")  
         let cscope_pre=matchstr(cscope_file, ".*/")  
         if !empty(cscope_file) && filereadable(cscope_file)  
             exe "cs add" cscope_file cscope_pre  
         endif        
-    endif
+    endif  
 
     " show msg when any other cscope db added
     set cscopeverbose  
