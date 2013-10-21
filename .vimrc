@@ -55,6 +55,7 @@ nmap <S-Up> <C-u><cr>
 nmap g[ <C-t><cr>
 nmap hh :IHT<cr>
 nmap qq :q!<cr>
+nmap c] :cs find c <C-R>=expand("<cword>")<CR><CR>  
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
@@ -78,7 +79,6 @@ let OmniCpp_DisplayMode=1
 let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 
 autocmd FileType c set omnifunc=ccomplete#Complete
-autocmd FileType c set tags+=/usr/include/tags
 autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -89,3 +89,4 @@ let g:acp_completeOption = '.,w,b,u,k'
 
 let Grep_Default_Filelist = '*'
 let Grep_Xargs_Path = '/usr/local/bin/gxargs'
+
