@@ -40,6 +40,7 @@ set nobackup
 set noswapfile
 set showtabline=2
 set tags=tags;
+set cscopequickfix=c-
 set bsdir=buffer
 set autochdir
 set completeopt=longest,menu
