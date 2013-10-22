@@ -46,6 +46,7 @@ set completeopt=longest,menu
 set laststatus=2
 set statusline=%F\ \ \ \ [%{&ff}]\ \ \ \ [%{strlen(&fenc)?&fenc:'none'}]%=%l,%c
 
+nmap <F2> :cs find c <C-R>=expand("<cword>")<CR><CR>  
 nmap <F3> :TagbarToggle<cr>
 nmap <F4> :NERDTreeToggle<cr>
 nmap <F5> :Rgrep<cr>
@@ -55,7 +56,6 @@ nmap <S-Up> <C-u><cr>
 nmap g[ <C-t><cr>
 nmap hh :IHT<cr>
 nmap qq :q!<cr>
-nmap c] :cs find c <C-R>=expand("<cword>")<CR><CR>  
 
 let NERDTreeWinSize=25
 let NERDTreeQuitOnOpen=1
